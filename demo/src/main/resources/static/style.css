@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header{
+    background: #71b523;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header .logo {
+    position: relative;
+    max-width: 80px;
+    margin-left: 20px;
+}
+header .MENU ul{
+    position: relative;
+    display: flex;
+
+    padding-top: 8px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+    width: 100%;
+    margin-top: 0px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    margin-left: 40px;
+    border-radius: 10px;
+    padding: 9px;
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size:20px;
+    text-decoration: none;;
+}
+header ul li a I{
+    margin: 2px;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.content .textbox{
+    position: relative;
+    max-width: 600px;
+    margin-top: 30px;
+}
+.content .textbox input[type=text]{
+    width: 50%;
+    border: 1.5px solid #aaa;
+    border-radius: 7px;
+    outline: none;
+    padding: 6px;
+
+    box-sizing: border-box;
+    transition: .3s;
+}
+.content .textbox input[type=submit] {
+    background-color:#71b523 ;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    padding: 6px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+.content .textbox input[type=text]:focus{
+    border-color: green;
+    box-shadow: 0 0 8px green;
+}
+.content .textbox h2{
+    color: #333;
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight: 200 ;
+}
+.content .textbox h2 span{
+    color: #71b523;
+    font-size: 1.2em;
+    font-weight:900;
+}
+
+.content .imgbox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.content .imgbox img{
+    max-width: 1000px;
+    width: 500px;
+
+}
+.sec{
+    margin: 0px;
+    position: relative;
+}
+#tab{
+    width: 20%;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+.div1{
+    background-color: #fff;
+    padding: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px  #aaa;
+    transition: 0.5s;
+    margin: 12px;
+}
+.div1 img{
+    width: 30px;
+}
+.div1 .div1p{
+    display: flex;
+    justify-content: center;}
+.div1 .div1p a{
+    text-decoration: none;
+    }
+.div1 .div1p .div1content .titlecard
+{
+    color: #71b523;
+    font-size: 15px;
+  font-weight: bold;
+  font-family: 'Raleway';
+}
+
+
+
+
